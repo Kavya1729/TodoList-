@@ -1,8 +1,19 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Todo List with Local Storage & Context API
+Welcome to my React Todo List application! This simple yet effective app allows you to manage your daily tasks with ease. It uses Local Storage to persist your tasks across sessions and the Context API to manage state globally.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+Add, Edit, and Delete Tasks: Easily create, modify, and remove tasks.
+Persistent Data: All tasks are saved in Local Storage, so your list is available even after you refresh or close the app.
+Global State Management: Uses React's Context API to efficiently manage and share the task list state throughout the app.
+Technologies Used:
+React for building the user interface.
+Local Storage for persisting data across sessions.
+Context API for global state management.
+How to Use:
+Open the app.
+Add your tasks using the input field.
+Edit or delete tasks as needed.
+Refresh or revisit the app, and your tasks will be restored.
+Enjoy managing your tasks!
